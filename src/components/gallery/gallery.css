@@ -1,0 +1,61 @@
+h1{
+    padding: 0px;
+    display: flex;
+    justify-content: start;
+    margin-left: 5vw;
+    font-weight: bolder;
+    font-size: 70px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+img{
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+    box-shadow: inset;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+button{
+    color: white;
+    background-color: #C85C5C;
+    padding: 10px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #b43b3b;
+}
+
+.img-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-card{
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 1px;
+    /* width: 150px; */
+}
+
+.img-card:hover{
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+}
+
+.image-grid{
+    margin-left: 5vw;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
